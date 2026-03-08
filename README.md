@@ -1,4 +1,9 @@
 # Raspberry Pi 1U Server
+
+> This project is archived. It was built in mid-2021, before cheap mini PCs like the Intel N100 existed and before the Raspberry Pi supply shortages that made them nearly impossible to buy through most of 2022 and into 2023. It ran in a Dallas colocation facility for just over two years before the provider went bankrupt and the hardware was returned. Surprisingly, no technical failure killed it in that time. If you're looking to do something similar today, Mac minis or mini PCs like the Intel N100/N305 are probably a better fit.
+>
+> The project was featured on [Hackaday](https://hackaday.com/2021/07/21/raspberry-pi-server-cluster-in-1u-rack-mount-case/).
+
 There are server colocation providers that allow hosting a 1U server for as low as $30/month, but there's a catch: There are restrictions on power usage (1A @ 120v max, for example) because they're expecting small and power-efficient network equipment like firewalls.
 
 This repo is about designing a server that fits within the 1U space and 1A @ 120v power constraint while maximizing computing power, storage, and value.
